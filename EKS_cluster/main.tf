@@ -41,10 +41,10 @@ module "NodeGroup" {
   private_subnets_ids                = module.vpc.private_subnets_ids
 }
 
-module "k8s-config" {
-  source           = "./modules/k8s-config"
-  project_name     = var.project_name
-  eks_cluster_name = module.eks.eks_cluster_name
-  node_group_id    = module.NodeGroup.node_group_id 
-}
+# module "k8s-config" {
+#   source           = "./modules/k8s-config"
+#   project_name     = var.project_name
+#   eks_cluster_name = module.eks.eks_cluster_name
+#   node_group_id    = module.NodeGroup.node_group_id 
+# }
 
