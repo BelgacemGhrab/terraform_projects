@@ -1,0 +1,9 @@
+###### directories ######
+EKS_cluster/.terraform
+EKS_cluster/k8s-argo-manifests
+EKS_cluster/modules/k8s-config
+
+###### files ######
+EKS_cluster/.terraform.lock.hcl
+EKS_cluster/terraform.tfstate.backup
+EKS_cluster/terraform.tfstate
