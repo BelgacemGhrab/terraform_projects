@@ -15,7 +15,7 @@ bastion_instance_type = "t2.micro"
 
 asg_image_id                  = "ami-01b32e912c60acdfa"
 asg_instance_type             = "t2.medium"
-asg_block_device_name         = "/dev/xvda"
+asg_block_device_name         = "/dev/sda1" ## based on ami type
 asg_block_volume_size         = 30
 asg_min_size                  = 2
 asg_max_size                  = 4
